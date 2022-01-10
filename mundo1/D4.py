@@ -1,0 +1,8 @@
+v = input('Digite um valor: ')
+tipo = type(v)
+maiusculo = v.isupper()
+minusculo = v.islower()
+alpha = v.isalpha()
+numeric = v.isnumeric()
+alnum = v.isalnum()
+print('tipo: {} / maiusculo: {} / minusculo: {} / alpha: {} / numeric: {} / alnum: {}'.format(tipo, maiusculo, minusculo, alpha, numeric, alnum))
